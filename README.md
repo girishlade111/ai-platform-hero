@@ -370,6 +370,38 @@ Located in `tailwind.config.js`:
 
 ---
 
+## 🔍 SEO Optimization
+
+This project includes comprehensive SEO optimization for better search engine rankings.
+
+### 📁 SEO Files
+
+| File | Purpose |
+|------|---------|
+| `public/robots.txt` | Allows all crawlers to access the website |
+| `public/sitemap.xml` | XML sitemap for search engine indexing |
+| `lib/seo.ts` | SEO metadata configuration |
+
+### 🔐 SEO Features
+
+- **Meta Tags** — Long-form and short-form meta tags for search engines
+- **Open Graph** — Social media optimization tags
+- **Twitter Cards** — Twitter preview optimization
+- **Structured Data** — JSON-LD schema for rich search results
+- **Sitemap** — Auto-generated sitemap for search engines
+- **Robots.txt** — Full crawler access allowed
+
+### 📋 Sitemap Pages
+
+- Homepage (priority: 1.0)
+- About (priority: 0.8)
+- Contact (priority: 0.7)
+- Features (priority: 0.8)
+- Pricing (priority: 0.8)
+- Blog (priority: 0.7)
+
+---
+
 ## 🚀 Deployment
 
 ### Deployment
