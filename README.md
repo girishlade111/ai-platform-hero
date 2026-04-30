@@ -1,9 +1,9 @@
 # AI Platform Hero
 
-> A powerful AI-powered platform built with Next.js 15, React 19, and TypeScript. Deployed on Vercel with real-time analytics.
+> A powerful AI-powered platform built with Next.js 15, React 19, and TypeScript with real-time analytics.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/gileb64375-5584s-projects/v0-ai-platform-hero)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/kBPZHaZJbBn)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)](https://react.dev/)
@@ -56,7 +56,7 @@ flowchart TB
     end
 
     subgraph Integrations["External Integrations"]
-        Vercel[Vercel Analytics]
+        Analytics[Analytics]
         Theme[next-themes]
     end
 
@@ -83,7 +83,7 @@ flowchart TB
     Hooks --> Zod
     Zod --> Resolvers
     
-    Vercel --> Client
+    Analytics --> Client
     Theme --> Client
     
     Tailwind --> UI_Lib
@@ -98,7 +98,7 @@ flowchart TB
 - **🔙 API Layer**: Next.js API routes with middleware support
 - **🎨 Styling**: Tailwind CSS with class-variance-authority for variants
 - **✅ Validation**: Zod schema validation with form resolvers
-- **📊 Integrations**: Vercel Analytics and next-themes for theming
+- **📊 Integrations**: Analytics and next-themes for theming
 
 ---
 
@@ -111,7 +111,7 @@ flowchart TB
 - **🌙 Dark/Light Mode** — Theme switching with next-themes
 - **📊 Data Visualization** — Interactive charts with Recharts
 - **♿ Accessibility** — Full accessibility support via Radix UI
-- **📈 Analytics** — Real-time analytics with Vercel Analytics
+- **📈 Analytics** — Real-time analytics
 - **🔒 Type Safety** — Full TypeScript support with strict mode
 - **⚡ Fast Performance** — Optimized with Next.js automatic optimization
 
@@ -164,7 +164,7 @@ flowchart TB
 
 ### 🛠️ Additional Features
 
-- **Geist Font** — Modern font from Vercel
+- **Geist Font** — Modern sans-serif font
 - **Date Handling** — date-fns for date manipulation
 - **Command Palette** — CMDK for command interfaces
 - **OTP Input** — Input OTP for verification codes
@@ -221,7 +221,7 @@ flowchart TB
 
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| **Vercel Analytics** | 1.3.x | Analytics |
+| **Analytics** | 1.3.x | Analytics |
 | **next-themes** | 0.4.x | Theme Management |
 
 ### 📦 Build Tools
@@ -372,11 +372,11 @@ Located in `tailwind.config.js`:
 
 ## 🚀 Deployment
 
-### Vercel Deployment
+### Deployment
 
-The project is automatically deployed to Vercel:
+The project can be deployed to any hosting platform:
 
-**🔗 Live URL**: [https://vercel.com/gileb64375-5584s-projects/v0-ai-platform-hero](https://vercel.com/gileb64375-5584s-projects/v0-ai-platform-hero)
+**To deploy**: Run `npm run build` and deploy the output to your hosting provider
 
 ### Manual Deployment
 
@@ -472,8 +472,8 @@ Create a `.env.local` file in the root directory:
 # Analytics Configuration
 # ==========================================
 
-# Vercel Analytics (optional)
-NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_analytics_id
+# Analytics (optional)
+NEXT_PUBLIC_ANALYTICS_ID=your_analytics_id
 
 # ==========================================
 # API Configuration
@@ -563,4 +563,4 @@ For issues and feature requests, please [open an issue](https://github.com/your-
 
 ---
 
-*Built with ❤️ using v0.app and Next.js*
+*Built with ❤️ using Next.js and React*
