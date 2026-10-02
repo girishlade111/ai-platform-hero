@@ -591,8 +591,14 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ## 🆘 Support
 
-For issues and feature requests, please [open an issue](https://github.com/your-repo/ai-platform-hero/issues).
+For issues and feature requests, please [open an issue](https://github.com/girishlade111/ai-platform-hero/issues).
 
 ---
+
+---
+
+## 🧑‍💻 Author
+
+**Built by Girish Lade** — [ladestack.in](https://ladestack.in) · [GitHub](https://github.com/girishlade111)
 
 *Built with ❤️ using Next.js and React*
