@@ -1,0 +1,11 @@
+# Robots.txt for AI Platform Hero
+# Allow all crawlers to access the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ai-platform-hero.vercel.app/sitemap.xml
+
+# Crawl-delay (optional - for politeness)
+Crawl-delay: 1
